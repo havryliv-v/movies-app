@@ -1,5 +1,9 @@
 @import '../../common/colors.scss';
 
+.movie-wrapper {
+   color: $font-primary
+}
+
 .movie-list,
 .show-list {
    margin: 20px 0;
@@ -11,9 +15,14 @@
    }
 }
 
-// .movie-container {
-//    display: grid;
-//    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-//    gap: 15px;
+.movie-loading {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 84vh;
+}
 
-// }
+.movies-error {
+   font-size: 35px;
+   color: red;
+}
